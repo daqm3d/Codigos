@@ -13,7 +13,7 @@ chmod 777 ${NAME} #se le da permisos al archivo
 echo "procesando la copia de la base de datos" #mensaje a ver 
 
 pg_dump -i -h (ip del servidor) -p (puerto) -U $USER_DB -F c -b -v -f ${NAME}  $NAME_DB # comando para crear el backup
-echo "backup terminado" #mensaje a ver 
+echo "backup terminado" >> $DIR/bitacora.log; #mensaje a ver + guardar log
 # usamos bzip2 para comprimir el sql
  bzip2 ${NAME}
  
