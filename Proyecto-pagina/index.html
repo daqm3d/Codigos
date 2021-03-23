@@ -1,0 +1,182 @@
+<!DOCTYPE html> <!-- Html5 Css3 y JavaScript -->
+<!--+*****************************************************************************************************************************+-->
+<!--+    Pagina Web Creada en el Proyecto de Practica Profecionales  de la Carera de Analisis y Diceño de Sistemas de la UNEFA    +-->
+<!--+                      Creador: Deivy Armando Quintero Martinez, uvicanos a traves de: DAQM3D@GMAIL.COM                       +-->
+<!--+*****************************************************************************************************************************+-->
+<html lang="es-VE">
+<head> <!--   informacion principal para la pagina web   -->
+	<meta charset="UTF-8"> <!-- fuente de las letras -->
+	<meta name="description" content="Centro de Comando, Control y Telecomunicaciones VEN-911"> <!-- de que se trata -->
+	<meta name="keywords" content="VEN-911, VEN911, Telecomunicaciones, Seguridad, Emergencias"> <!-- relaciones en el buscador -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"><!-- ancho del sitio web  -->
+	<link rel="stylesheet" href="css/estilos.css"> <!-- direccion del Css -->
+	<link rel="stylesheet" href="style.css"> <!-- direccion  de los iconos -->
+	<link rel="stylesheet" href="fonts/fuentes.css">  <!--  direccion  de las fuentes  -->
+	<link rel="stylesheet" href="css/flash_theme.css"><!--   efecto de carga   -->
+	<link rel="icon" href="imagenes/favicon-ven911.png"><!--   favicon del ven911   -->
+	<title class="titulo"> CCCT  VEN 9-1-1</title> <!-- titulo de la biñeta -->
+	<script src="js/jquery-3.2.1.min.js"></script><!-- libreria de jquery  -->
+	<script src="js/main.js"></script><!-- direccion del archivo  javaScript-->
+	<script src="js/pace.min.js"></script> <!--   libreria de efecto de carga   -->
+</head><!--   fin   -->
+<body><!--   diceño de la pagina web   -->
+	<div id="agrupar"> <!--   contenedor para agrupar toda la pagina   -->
+		<header id="header"><!-- Cabecera  -->
+			<img  src="imagenes/cabecera.png" alt="cabecera">
+		</header><!--   fin de la cabecera   -->
+		<div class="menu-completo"><!-- contenedor del todo el menu  -->
+			<div class="menu_bar"><!-- contenedor  -->
+				<a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a><!-- icono del menu responsive-->
+			</div>
+			<nav class="menu"><!-- menu  -->
+				<ul>
+					<li><a href="index.html"><span class="icon-home"></span>Inicio</a></li>
+					<li class="submenu">
+						<a href="#"><span class="icon-user-tie"></span>Qui&eacute;nes Somos<span class="caret icon-circle-down"></span></a>
+						<ul class="children"><!--  sub-menu de quienes somos  -->
+							<li><a href="pantallas/Quienes-somos/Historia.html">Historia<span class="caret icon-embed"></span></a></li>
+							<li><a href="pantallas/Quienes-somos/Mision.html">Misi&oacute;n<span class="caret icon-embed"></span></a></li>
+							<li><a href="pantallas/Quienes-somos/Vision.html">Visi&oacute;n<span class="caret icon-embed"></span></a></li>
+						</ul> <!-- final del sub-menu de quienes somos  -->
+					</li>
+					<li><a href="pantallas/Proyectos.html"><span class="icon-rocket"></span>Proyecto</a></li>
+					<li class="submenu">
+						<a href="#"><span class="icon-pushpin"></span>Objetivos<span class="caret icon-circle-down"></span></a>
+						<ul class="children"><!--  sub-menu de objetivos  -->
+							<li><a href="pantallas/Objetivos/Generales.html">Generales<span class="caret icon-embed"></span></a></li>
+							<li><a href="pantallas/Objetivos/Especidico.html">Espec&iacute;ficos<span class="caret icon-embed"></span></a></li>
+						</ul><!-- final del sub-menu de objetivos  -->
+					</li> 
+					<li><a href="pantallas/Funciones.html"><span class="icon-stack"></span>Funciones</a></li>
+					<li><a href="pantallas/Contactanos.html"><span class="icon-bubbles4"></span>Contactanos</a></li>
+				</ul>
+			</nav>  <!--  fin del menu  -->
+		</div> <!--   fin del contenedor del menu  -->
+		<div class="c-slider"  id="c-slider">  <!--    contenedor  del slider    -->
+			<div class="slider" id="slider" ><!-- contenedor  del slider de imagenes   -->
+				<section><img src="imagenes/linea-unica.jpg" alt="linea-unica" ></section>
+				<section><img src="imagenes/Patria-segura.png" alt="Patria-segura" ></section>
+				<section><img src="imagenes/estamos-para-ayudarte.jpg" alt="estamos-para-ayudarte" ></section>
+				<section><img src="imagenes/tres-numeros.jpg" alt="tres-numeros" ></section>
+				<section><img src="imagenes/911encaso-de-emergencia.jpeg" alt="911encaso-de-emergencia" ></section>
+				<section><img src="imagenes/VEN911.jpeg" alt="VEN911" ></section>
+			</div>
+			<div class="btn-prev"  id="btn-prev" >&#60</div><!--   boton atras  -->
+			<div class="btn-next"  id="btn-next" >&#62</div><!--   boton adelante   -->
+		</div>  <!--    fin del slider    -->
+		<div class="social" id="social" ><!-- contenedor  de la barra social   -->
+			<ul>
+				<li><a href="https://www.facebook.com/PrensaVen911" target="_blank" class="icon-facebook"></a></li>
+				<li><a href="https://twitter.com/ven911oficial" target="_blank" class="icon-twitter"></a></li>
+				<li><a href="https://www.instagram.com/ven911oficial" target="_blank" class="icon-instagram"></a></li>
+				<li><a href="https://www.youtube.com/channel/UC-8G-oIAuwUHRmDzQ01o-Yg" target="_blank" class="icon-youtube"></a></li>
+			</ul>
+		</div><!--    fin de la barra social    -->
+		<div class="servicios" id="servicios" ><!-- contenedor  -->
+			<div class="ss"  id="ss" ><!-- contenedor  -->
+				<h1 class="titulo" >Servicios Que Presta VEN-911</h1>
+			</div>
+			<div class="info"  id="info" ><!-- contenedor de servicios   -->
+				<ul>
+					<li><a href="pantallas/Servicios-Que-Presta-VEN-911/Centro-de-Atencion-y-Despacho.html" >
+						<div class="icon-phone"></div>Centros de Atenci&oacute;n y Despacho</a></li>
+					<li><a href="pantallas/Servicios-Que-Presta-VEN-911/Sistema-de-Video-vigilancia-Inteligente.html" >
+						<div class="icon-camera"></div>Sistema de Video Vigilancia Inteligente</a></li>
+					<li><a href="pantallas/Servicios-Que-Presta-VEN-911/Equipo-de-Veiculos-especiales.html" >
+						<div class="icon-truck"></div>Equipo de Vehiculos Especiales</a></li>
+					<li><a href="pantallas/Servicios-Que-Presta-VEN-911/Sistema-de-Boton-de-Emergencia.html" >
+						<div class="icon-bullhorn"></div>Sistema de Boton de Emergencias</a></li>
+				</ul>
+			</div>
+		</div><!--   fin de menu de servicios   -->
+		<div class="losavances"  id="losavances" ><!-- contenedor  -->
+			<section class="avances"><!-- seccion  de avances   -->
+				<h1 class="section__titulo" id="section__titulo" >Avances en el Sistema del VEN-911</h1>
+				<div class="avances__columnas" id="avances__columnas" ><!-- contenedor  -->
+				    <a href="pantallas/Avances-en-el-sistema-del-Ven-911/Personal-del-VEN-911.html"><!--    lin de enlace   -->
+				    <img src="pantallas/Avances-en-el-sistema-del-Ven-911/Personal-del-VEN-911.jpg" alt="Personal-del-VEN-911">
+					<div class="avances__descripcion"  ><!-- contenedor  -->
+						<h3 class="avances__titulos" id="avances__titulos" >Personal del VEN9-1-1</h3>
+						<p class="avances__txt" id="avances__txt" >Fortalecen Servicios con Capacitaci&oacute;n Permanente</p>
+					</div>
+					</a>
+				</div><!--   contenedor de uno de los avances   -->
+				<div class="avances__columnas" id="avances__columnas" ><!-- contenedor  -->
+				    <a href="pantallas/Avances-en-el-sistema-del-Ven-911/VEN-911-da-a-conocer-el-proceso.html" ><!--    lin de enlace   -->
+					<img src="pantallas/Avances-en-el-sistema-del-Ven-911/VEN-911-da-a-conocer-el-proceso.jpg" alt="VEN-911-da-a-conocer-el-proceso">
+					<div class="avances__descripcion"  ><!-- contenedor  -->
+						<h3 class="avances__titulos" id="avances__titulos" >VEN9-1-1 da a Conocer</h3>
+						<p class="avances__txt" id="avances__txt" >Proceso de Atenci&oacute;n y Despacho de Emergencia </p>
+					</div>
+					</a>
+				</div><!--   contenedor de uno de los avances   -->
+				<div class="avances__columnas" id="avances__columnas" ><!-- contenedor  -->
+				    <a href="pantallas/Avances-en-el-sistema-del-Ven-911/VEN-911-plataforma-tecnol%C3%B3gica-a-disposici%C3%B3n.html"><!--    lin de enlace   -->
+					<img src="pantallas/Avances-en-el-sistema-del-Ven-911/VEN-911-plataforma-tecnol%C3%B3gica-a-disposici%C3%B3n.jpeg" alt="VEN-911-plataforma-tecnol%C3%B3gica-a-disposici%C3%B3n" >
+					<div class="avances__descripcion"  ><!-- contenedor  -->
+						<h3 class="avances__titulos" id="avances__titulos">VEN9-1-1 Plataformas</h3>
+						<p class="avances__txt" id="avances__txt" >Tecnol&oacute;gicas a Disposici&oacute;n de Todos los Ciudadanos </p>
+					</div>
+					</a>
+				</div><!--   contenedor de uno de los avances   -->
+				<div class="avances__columnas" id="avances__columnas" ><!-- contenedor  -->
+				    <a href="pantallas/Avances-en-el-sistema-del-Ven-911/Personal-del-VEN-911.html"><!--    lin de enlace   -->
+					<img src="pantallas/Avances-en-el-sistema-del-Ven-911/Capacitados-trabajadores-del-VEN911.jpg" alt="Capacitados-trabajadores-del-VEN911" >
+					<div class="avances__descripcion" ><!-- contenedor  -->
+						<h3 class="avances__titulos" id="avances__titulos" >Capacitados Trabajadores</h3>
+						<p class="avances__txt" id="avances__txt" >VEN9-1-1 Trabaja en Materia de Resoluci&oacute;n de Conflictos</p>
+					</div>
+					</a>
+				</div><!--   contenedor de uno de los avances   -->
+				<div class="avances__columnas" id="avances__columnas" ><!-- contenedor  -->
+				    <a href="pantallas/Avances-en-el-sistema-del-Ven-911/Gobierno-Bolivariano-invierte.html"><!--    lin de enlace   -->
+					<img src="pantallas/Avances-en-el-sistema-del-Ven-911/Gobierno-Bolivariano-invierte.jpg" alt="Gobierno-Bolivariano-invierte" >
+					<div class="avances__descripcion" ><!-- contenedor  -->
+						<h3 class="avances__titulos" id="avances__titulos" >Gobierno Bolivariano</h3>
+						<p class="avances__txt" id="avances__txt" > Invierte en Seguridad de la Ciudadan&iacute;a con Proyecto VEN9-1-1</p>
+					</div>
+					</a>
+				</div><!--   contenedor de uno de los avances   -->
+				<div class="avances__columnas" id="avances__columnas" ><!-- contenedor  -->
+				    <a href="pantallas/Avances-en-el-sistema-del-Ven-911/Discentes-de-la-Unes.html"><!--    lin de enlace   -->
+					<img src="pantallas/Avances-en-el-sistema-del-Ven-911/Discentes-de-la-Unes.jpg" alt="Discentes-de-la-Unes" >
+					<div class="avances__descripcion" ><!-- contenedor  -->
+						<h3 class="avances__titulos" id="avances__titulos" >Discentes de la Unes</h3>
+						<p class="avances__txt" id="avances__txt" >Participaron en la Ruta Educativa del VEN9-1-1 </p>
+					</div>
+					</a>
+				</div><!--   contenedor de uno de los avances   -->
+			</section>
+		</div><!--   fin de los avances   -->
+		<footer class="footer" >  <!-- pie de pagina   -->
+			<div class="pie_social" id="pie_social" ><!-- contenedor  de redes sociales   -->
+				<a href="https://www.facebook.com/PrensaVen911" target="_blank" class="icon-facebook"  ></a>
+				<a href="https://twitter.com/ven911oficial" target="_blank" class="icon-twitter"  ></a>
+				<a href="https://www.instagram.com/ven911oficial" target="_blank" class="icon-instagram"  ></a>
+				<a href="https://www.youtube.com/channel/UC-8G-oIAuwUHRmDzQ01o-Yg" target="_blank" class="icon-youtube"  ></a>
+			</div>
+			<div class="negrita" id="pie_des"><!-- contenedor  del la info del footer-->
+				<div id="body" class="body" ><!-- contenedor  -->
+					<div id="izquierda"><!-- contenedor izquierdo  -->
+					  <img  id="img"  src="imagenes/footer-ven911.png" alt="footer-ven911" >
+					</div>
+					<div id="centro"><!-- contenedor central  -->						    
+					<h3 class="h3">Desarrollado por: Coordinación de Tecnologia - © 2017 Todos   los Derechos Reservados.<br/>Direccion de Centros de Comando, Control y Teleconunicaciones VEN-911 - Rif G-200122994<br/>Ministerio del Poder Popular para Relaciones Interiores, Justicia y Paz.<br/>La California Norte, Calle Paris con AV. Santiago de Leon, EDF VEN-911. Planta Baja, Caracas.<br/></h3>
+					</div>
+					<div id="derecha"><!-- contenedor derecho  -->
+					    <div class="horas" id="horas"><samp class="icon-phone"></samp> Atenci&oacute;n las 24 horas</div>
+						<p class="p">Tres N&uacute;meros que te Pueden Salvar la Vida, 9-1-1 T&uacute; linea de Emergencia a Nivel Nacional.</p>
+					</div>
+				</div>
+			</div>
+			<div class="final" id="final" ><!-- contenedor  -->
+					<h2 class="fantasma" id="h2"> CENTROS DE COMANDO, CONTROL Y TELECOMUNICACIONES VEN911 | www.ven911.gob.ve </h2>
+			</div>
+		</footer><!--   fin del pie de la pagina   -->
+	</div><!--   fin del contenedor que agrupa toda la pagina   -->
+</body><!--   fin del diceño de la pagina web   -->
+</html>
+<!--+*****************************************************************************************************************************+-->
+<!--+    Pagina Web Creada en el Proyecto de Practica Profecionales  de la Carera de Analisis y Diceño de Sistemas de la UNEFA    +-->
+<!--+                      Creador: Deivy Armando Quintero Martinez, uvicanos a traves de: DAQM3D@GMAIL.COM                       +-->
+<!--+*****************************************************************************************************************************+-->

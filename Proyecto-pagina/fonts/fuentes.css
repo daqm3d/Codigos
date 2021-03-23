@@ -1,0 +1,47 @@
+/*****************************************************************************************************************************/
+/*   Pagina Web Creada en el Proyecto de Practica Profecionales  de la Carera de Analisis y Diceño de Sistemas de la UNEFA   */
+/*                     Creador: Deivy Armando Quintero Martinez, uvicanos a traves de: DAQM3D@GMAIL.COM                      */
+/*****************************************************************************************************************************/
+
+/*************   estilo de fuentes   **********************/
+@font-face{
+    font-family:regular;
+    src: url(EBGaramond/EBGaramond-Regular.ttf);
+}
+
+@font-face{
+    font-family:fina;
+    src: url(Raleway/Raleway-ExtraLightItalic.ttf);
+}
+
+@font-face{
+    font-family:semi-fina;
+    src: url(Raleway/Raleway-Italic.ttf);
+}
+
+@font-face{
+    font-family:gruesa;
+    src: url(Raleway/Raleway-BoldItalic.ttf);
+}
+
+/***********   Asicnacion de las fuentes   ***********/
+.titulo{
+    font-family:regular;
+}/*   titulos   */
+
+.texto{
+    font-family:semi-fina;
+}/*   estilo le detra   */
+
+.negrita{
+    font-family:gruesa;
+}/*   estilo negrita   */
+
+.fantasma{
+    font-family:fina;
+}/*   texto de marca de agua   */
+
+/*****************************************************************************************************************************/
+/*   Pagina Web Creada en el Proyecto de Practica Profecionales  de la Carera de Analisis y Diceño de Sistemas de la UNEFA   */
+/*                     Creador: Deivy Armando Quintero Martinez, uvicanos a traves de: DAQM3D@GMAIL.COM                      */
+/*****************************************************************************************************************************/
