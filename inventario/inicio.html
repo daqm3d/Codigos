@@ -1,0 +1,34 @@
+
+<html>
+      <head>  <title>#/#SPORTS  SHOP#/#</title>
+ <!--logo--><link rel="shortcut icon" href="C:\wamp\www\Proyecto\logo.jpg" />
+	  <body img background=inicio.png >
+	       <br><br><br>
+ <!--titulo--> <marquee bgcolor="" behavior="alternate" direction="right"> 
+		   <font color="#FFFFFF" size="10"><i><b>#/#SPORTS  SHOP#/#</b></i></font> </marquee> 
+		   
+<!--contraseña--> <SCRIPT  language=JavaScript> 
+function go(){
+if (document.form.password.value=='1234'&& document.form.text.value=='proyecto'){ 
+        document.form.submit(); 
+    } 
+    else{ 
+         alert("Usuario o Contrasena Incorrectos"); 
+    } 
+} 
+</SCRIPT>	 
+           <br><br><br><br><br><br>
+<!--ing_contraseña--><FORM name=form action="http://localhost/Proyecto/menu/menu.html"> 
+<!--cuadro--><td><table width="50%" border="10" cellspacing="10" cellpadding="0" align="center">
+		   <tr bgcolor="" align="center">  
+		   <td>
+                    <h3> <P align="center"> <font face="Comic Sans MS, cursive" ><font color="#FFFFFF">Usuario:<INPUT type=password name=text size="28">
+                    <P align="center"> <font face="Comic Sans MS, cursive">Password: <INPUT type=password name=password size="15"></font>
+<!--fin_contraseña--> <INPUT onclick=go()  type=button  value=Acceder  ></h3>   
+		   </td>
+		   </tr>
+<!--fin_cuadro--></table></td>
+</FORM>
+			   </body>
+      </head>
+</html>
