@@ -1,2 +1,2 @@
 # Codigos
-Diversos codigos mientras se aprende
+Conjunto de diversas practicas de codigos.
